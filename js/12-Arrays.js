@@ -15,3 +15,7 @@ for (var i=imiona.length-1; i>=0 ; i--) console.log(imiona[i])
 imiona.forEach( function (element, i) {
    console.log('Element nr. ' + (i+1) + ' = ' + element);
 });
+
+console.log(imiona.join(" - ")); // dodaje string miedzy elementami
+
+
