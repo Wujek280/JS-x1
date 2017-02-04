@@ -24,17 +24,38 @@ Petla WHILE
 /*
 
 Petla DO WHILE
+//
+//*/
+//
+//var iter = 11;
+//
+//do { console.log(iter) }
+//while (iter < 10)
+//
+//////Post vs preinkrememntacja
+// console.log("PREINKREMENTACJA");
+// for (var i=-4; i<=10; ) console.log(++i);
+//
+// console.log("POSTINKREMENTACJA");
+// for (var i=-4; i<=10; ) console.log(i++);
+//
+//// -------------------------
 
-*/
+console.log("Przerywanie petli w łajlu");
+var a = 0;
 
-var iter = 11;
+   while( a<=9 ) {   
+      
+      if(a == 5) {a++; continue;}
+      else console.log(a++);
+      
+   }
 
-do { console.log(iter) }
-while (iter < 10)
+console.log("Przerywanie petli w forze");
 
-//Post vs preinkrememntacja
- console.log("PREINKREMENTACJA");
- for (var i=-4; i<=10; ) console.log(++i);
+   for (var b=0; b<=9; b++){
 
- console.log("POSTINKREMENTACJA");
- for (var i=-4; i<=10; ) console.log(i++);
+      console.log(b);   
+      if (b == 5) {continue}
+
+   }
