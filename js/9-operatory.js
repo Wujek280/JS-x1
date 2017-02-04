@@ -7,8 +7,9 @@ console.log(wynik);
 
 var liczba1 = 13;
 
-wynik = liczba1 -= 3; 
-console.log(wynik);
+liczba1 -= 3;
+console.log(liczba1);
 
-(liczba1 > dzielnik) ? console.log("jest"); : console.log("nie jest");
+(3 > 2) ? console.log("jest") : console.log("nie jest"); 
+
 
