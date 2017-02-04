@@ -22,13 +22,19 @@ function multiply3(a, b, c) {
    return a*b*c;   
 }
 
-function writeMe(param){
+function writeMe(parameter){
    
-   if (ans >= 0) console.log(param)
-   else document.write(param)
+   if (parameter >= 0) {
+      console.log(parameter);
+   }else{ 
+      document.write(parameter);
+   }
    
 }
 
-var ans;
-ans = multiply3(a,b,c)
-writeMe(ans)
+/* ----------------------- */
+writeMe( multiply3(a,b,c) )
+/* ----------------------- */
+
+
+
