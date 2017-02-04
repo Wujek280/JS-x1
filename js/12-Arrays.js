@@ -10,6 +10,8 @@ var imiona = ['Monia', 'Jula', 'Seba'];
 //   imiona.pop(); // usuwa ostatni element 
 
 
-console.log(imiona)
+for (var i=imiona.length-1; i>=0 ; i--) console.log(imiona[i])
 
-for (var i=0; i<imiona.length; i++) console.log(imiona[i])
+imiona.forEach( function (element, i) {
+   console.log('Element nr. ' + (i+1) + ' = ' + element);
+});
