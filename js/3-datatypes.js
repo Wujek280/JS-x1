@@ -39,11 +39,13 @@ console.log(undefinowanaZmienna);
 console.log(nullowaZmienna);
 
 
-//
+//metody
 
 var imieStudenta = "Michał c.";
 console.log(imieStudenta.toUpperCase());
 console.log(imieStudenta.indexOf('c')+1);
+
+//
 
 
 
