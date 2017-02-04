@@ -35,7 +35,7 @@ console.log(Array.isArray(3.0))
 
 console.log(zbiorImion.slice(2,4))
 
-console.log(zbiorImion.toString())
+console.log(zbiorImion.toString())  ///csv
 
 
 
