@@ -25,16 +25,18 @@ function multiply3(a, b, c) {
 function writeMe(parameter){
    
    if (parameter >= 0) {
-      console.log(parameter);
+      console.log(parameter.toFixed(2));
    }else{ 
-      document.write(parameter);
+      document.write(parameter.toFixed(2));
+      document.write('<br>');
    }
    
 }
 
-/* ----------------------- */
-writeMe( multiply3(a,b,c) )
-/* ----------------------- */
+multiply3(a,b,c)
 
+for (var test = -5.849458; test<10; test++){
+   writeMe(test);
+}
 
 
