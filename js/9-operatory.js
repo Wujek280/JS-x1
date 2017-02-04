@@ -10,3 +10,5 @@ var liczba1 = 13;
 wynik = liczba1 -= 3; 
 console.log(wynik);
 
+(liczba1 > dzielnik) ? console.log("jest"); : console.log("nie jest");
+
