@@ -16,6 +16,28 @@ imiona.forEach( function (element, i) {
    console.log('Element nr. ' + (i+1) + ' = ' + element);
 });
 
+
 console.log(imiona.join(" - ")); // dodaje string miedzy elementami
+console.log( imiona.sort() ); // nie soruje polskich znakow 
+console.log( imiona.reverse() ); // nie soruje polskich znakow 
+
+var imionaMeskie = [ ' Marcin ', 'Jakub', 'Krystian'];
+var zbiorImion;
+
+zbiorImion=imiona.concat(imionaMeskie);
+console.log(zbiorImion)
+   
+
+console.log(zbiorImion.indexOf('Jakub'));
+
+console.log(Array.isArray(zbiorImion))
+console.log(Array.isArray(3.0))
+
+console.log(zbiorImion.slice(2,4))
+
+console.log(zbiorImion.toString())
+
+
+
 
 
