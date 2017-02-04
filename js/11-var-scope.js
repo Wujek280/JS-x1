@@ -14,6 +14,7 @@ var sumaKasy = a + b + c ;
 
 //we funkcjach uzywaj ziennych lokalnych
 // W ZADNYM WYPADKU NIE STOSOWAC
+//uzywaj przyjaznych innych nazw
 
 function policzHajs(a, b, c, wiek) {
    var sumaKasy;
@@ -25,3 +26,5 @@ function policzHajs(a, b, c, wiek) {
 
 
 console.log("OSOBA", policzHajs(200, 400, sumaKasy, 25))
+// W ZADNYM WYPADKU NIE STOSOWAC
+c = 25000;
