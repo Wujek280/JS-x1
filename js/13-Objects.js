@@ -20,22 +20,23 @@ krystian.przedstawOsobe();*/
 
 /*-------CLASS--------------*/
 
+/*
 function Osoba(imie, nazwisko) {
    this.imie = imie;
    this.nazwisko = nazwisko;
    this.wzrost = null;
    this.oczy;
    this.wyswietlInfo = function() {
-      console.log(   "/*---------------*/ \n"+
+      console.log(    \n"+
                      "Imię: " +this.imie+ "\n"+
                      "Nazwisko: " +this.nazwisko+ "\n"+
                      "Wzrost: " +this.wzrost+ "\n"+
                      "Oczy: " +this.oczy+
-                     "\n/*---------------*/ ")
+                     "\n ")
    }
 }
 
-/*-------------------------*/
+-------------------------
 
 var krystian = new Osoba('Krystian', 'Dziopa');
 krystian.wyswietlInfo();
@@ -43,3 +44,21 @@ krystian.wyswietlInfo();
 var prezydent = new Osoba('Andrzej', 'Duda');
 prezydent.wyswietlInfo();
 
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         
